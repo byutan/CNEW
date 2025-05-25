@@ -166,7 +166,7 @@ void folder_ginit(char proj_name[])
     }
 	else if (folder_git() == true)
 	{
-		printf("Error: Git is not installed. Intsall it to use --with-git.\n");
+		printf("Error: Git is not installed. Install it to use --with-git.\n");
 	}
 	else
 	{
